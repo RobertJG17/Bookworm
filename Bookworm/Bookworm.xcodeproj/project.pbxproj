@@ -14,6 +14,8 @@
 		E1B2034225A7CAD60030EE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B2034125A7CAD60030EE8D /* Assets.xcassets */; };
 		E1B2034525A7CAD60030EE8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B2034425A7CAD60030EE8D /* Preview Assets.xcassets */; };
 		E1B2034825A7CAD60030EE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B2034625A7CAD60030EE8D /* LaunchScreen.storyboard */; };
+		E1B2035125A905DE0030EE8D /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2035025A905DE0030EE8D /* AddBookView.swift */; };
+		E1B2035525A9214B0030EE8D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2035425A9214B0030EE8D /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E1B2034425A7CAD60030EE8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1B2034725A7CAD60030EE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1B2034925A7CAD60030EE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B2035025A905DE0030EE8D /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		E1B2035425A9214B0030EE8D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				E1B2033825A7CAD30030EE8D /* AppDelegate.swift */,
 				E1B2033A25A7CAD30030EE8D /* SceneDelegate.swift */,
 				E1B2033C25A7CAD30030EE8D /* ContentView.swift */,
+				E1B2035025A905DE0030EE8D /* AddBookView.swift */,
+				E1B2035425A9214B0030EE8D /* RatingView.swift */,
 				E1B2034125A7CAD60030EE8D /* Assets.xcassets */,
 				E1B2034625A7CAD60030EE8D /* LaunchScreen.storyboard */,
 				E1B2034925A7CAD60030EE8D /* Info.plist */,
@@ -151,7 +157,9 @@
 				E1B2033925A7CAD30030EE8D /* AppDelegate.swift in Sources */,
 				E1B2034025A7CAD30030EE8D /* Bookworm.xcdatamodeld in Sources */,
 				E1B2033B25A7CAD30030EE8D /* SceneDelegate.swift in Sources */,
+				E1B2035525A9214B0030EE8D /* RatingView.swift in Sources */,
 				E1B2033D25A7CAD30030EE8D /* ContentView.swift in Sources */,
+				E1B2035125A905DE0030EE8D /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
