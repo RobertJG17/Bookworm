@@ -38,10 +38,13 @@ struct ContentView: View {
                     NavigationLink(destination: DetailView(book: book)) {
                         EmojiRatingView(rating: book.rating)
                             .font(.largeTitle)
-                        
+                            .foregroundColor(book.rating <= 1 ? .red :
+                                                book.rating <= 3 ? .yellow : .green)
                         VStack(alignment: .leading) {
                             Text(book.title ?? "Unknown Title")
                                 .font(.headline)
+                                .foregroundColor(book.rating <= 1 ? .red :
+                                                    book.rating <= 3 ? .yellow : .green)
                             Text(book.author ?? "Unknown Author")
                                 .foregroundColor(.secondary)
                         }
